@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:100%;
+}
+#header{
+	width:100%;
+	height:486px;
+	background:url("../../images/2015-10-15/pc_index_01.png") no-repeat center 0;
+
+}
+#content{
+	width:100%;
+	height:2058px;
+	background:url('../../images/2015-10-15/pc_index_02.png') no-repeat center 0;
+}
+#content h2{
+	width:598px;
+	height:63px;
+	margin:0 auto;
+	padding:35px 0;
+}
+#content h2 img{
+	width:100%;
+}
+#content .con_nr_lc{
+	width:740px;
+	margin:0 auto;
+}
+#content .con_nr_lc img{
+	width:100%;
+}
+#content .con_nr_jj h3{
+	font-size:26px;
+	color:#57636c;
+	line-height:40px;
+	background:url(../images/bas.png) no-repeat;
+}
+#content .con_nr_jj h3.h31{
+	background-position:120px 7px;
+}
+#content .con_nr_jj h3.h32{
+	background-position:120px -53px;
+}
+#content .con_nr_jj h3.h33{
+	background-position:120px -110px;
+}
+#content .con_nr_jj h3.h34{
+	background-position:120px -167px;
+}
+#content .con_nr_jj p{
+	font-size:18px;
+	line-height:36px;
+	padding-left:3em;
+}
+#content .con_nr_jj p.erji{
+	padding-left:4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

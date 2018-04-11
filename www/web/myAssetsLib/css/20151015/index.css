@@ -1,0 +1,216 @@
+@charset "utf-8";
+#wape{
+	width:100%;
+}
+#wape .top{
+	width:100%;
+	position:relative;
+}
+#wape .top a{
+	display:block;
+	width:16.6%;
+	height:auto;
+	overflow:hidden;
+	position:absolute;
+	top:5%;
+	right:3.2%;
+}
+#wape .top img{
+	width:100%;
+	height:auto;
+}
+#wape .content{
+	width:100%;
+	position:relative;
+}
+#wape .content img{
+	width:100%;
+	height:auto;
+}
+#wape .content .bjtp{
+	width:100%;
+}
+#wape .content .cot_nr{
+	position:absolute;
+	width:100%;
+	top:0;
+}
+#wape .content .cot_nr h2{
+	width:83.33%;
+	margin:0 auto;
+	padding:3.5% 0;
+}
+#wape .content .cot_nr .con_nr_lc{
+	width:87.77%;
+	margin:0 auto;
+	padding:1% 0 2%;
+}
+#wape .content .cot_nr .con_nr_jj{
+	width:80%;
+	margin:0 auto;
+}
+#wape .content .cot_nr .con_nr_jj img{
+	padding:3% 0;
+}
+#wape .content .cot_nr .con_nr_jj h3{
+	font-size:26px;
+	color:#57636c;
+	line-height:45px;
+}
+#wape .content .cot_nr .con_nr_jj h3 span{
+	display:inline-block;
+	width:6%;
+	padding-left:3%;
+}
+#wape .content .cot_nr .con_nr_jj h3 span img{
+	position:relative;
+	top:5px;
+	margin:0;
+	padding:0;
+}
+#wape .content .cot_nr .con_nr_jj p{
+	font-size:22px;
+	line-height:40px;
+	padding-left:2em;
+}
+#wape .content .cot_nr .con_nr_jj p.erji{
+	padding-left:3em;
+}
+/*注册*/
+#wape .content .cot_nr .zc_bd{
+	width:83.33%;
+	margin:0 auto;
+}
+#wape .content .cot_nr .zc_bd p{
+	font-size:28px;
+	color:#57636c;
+	line-height:40px;
+	text-align:center;
+}
+#wape .content .cot_nr .zc_bd .ggys{
+	width:95%;
+	background-color:#fff;
+	border-radius:4px;
+	margin-top:15px;
+	padding:25px 0;
+	margin-left: 10px;
+}
+#wape .content .cot_nr .zc_bd .ggys span{
+	display:block;
+	width:7.83%;
+	margin:0 2%;
+}
+#wape .content .cot_nr .zc_bd .ggys input{
+	width:80%;
+	line-height:32px;
+}
+#wape .content .cot_nr .zc_bd .yzm input{
+	width:55%;
+}
+#wape .content .cot_nr .zc_bd .yzm a{
+	width:30%;
+	color:#eb5050;
+	display:block;
+	font-size:28px;
+	text-align:center;
+	line-height:32px;
+	border-left:2px solid #bbbbbb;
+}
+#wape .content .cot_nr .zc_bd .ggys input[placeholder]{
+	font-size:28px;
+	color:#b5b5b5;
+}
+#wape .content .cot_nr .zc_bd button{
+	margin-top:20px;
+	width:100%;
+	background-color:#eb5050;
+	border-radius:4px;
+	font-size:28px;
+	color:#fff;
+	padding:25px 0;
+}
+@media (min-width:480px) and (max-width:640px) {
+	#wape .content .cot_nr .con_nr_jj h3{
+		font-size:18px;
+		line-height:30px;
+	}
+	#wape .content .cot_nr .con_nr_jj h3 span img{
+		top:3px;
+	}
+	#wape .content .cot_nr .con_nr_jj p{
+		font-size:14px;
+		line-height:26px;
+	}
+	/*注册*/
+	#wape .content .cot_nr .zc_bd p{
+		font-size:20px;
+		line-height:30px;
+	}
+	#wape .content .cot_nr .zc_bd .ggys{
+		padding:15px 0;
+	}
+	#wape .content .cot_nr .zc_bd .ggys input{
+		line-height:22px;
+	}
+	#wape .content .cot_nr .zc_bd .yzm a{
+		font-size:20px;
+		line-height:22px;
+	}
+	#wape .content .cot_nr .zc_bd .ggys input[placeholder]{
+		font-size:20px;
+	}
+	#wape .content .cot_nr .zc_bd button{
+		font-size:20px;
+		padding:15px 0;
+	}
+}
+
+@media (min-width:320px) and (max-width:479px) {
+	#wape .content .cot_nr .con_nr_jj h3{
+		font-size:16px;
+		line-height:20px;
+	}
+	#wape .content .cot_nr .con_nr_jj h3 span img{
+		top:2px;
+	}
+	#wape .content .cot_nr .con_nr_jj p{
+		font-size:12px;
+		line-height:20px;
+	}
+	/*注册*/
+	#wape .content .cot_nr .zc_bd p{
+		font-size:14px;
+		line-height:30px;
+	}
+	#wape .content .cot_nr .zc_bd .ggys{
+		margin-top:10px;
+		padding:10px 0;
+	}
+	#wape .content .cot_nr .zc_bd .ggys input{
+		line-height:22px;
+	}
+	#wape .content .cot_nr .zc_bd .yzm a{
+		font-size:14px;
+		line-height:22px;
+	}
+	#wape .content .cot_nr .zc_bd .ggys input[placeholder]{
+		font-size:14px;
+	}
+	#wape .content .cot_nr .zc_bd button{
+		margin-top:15px;
+		font-size:14px;
+		padding:10px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

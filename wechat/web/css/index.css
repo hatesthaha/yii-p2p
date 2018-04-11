@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wapper{
+    max-width: 640px;
+    margin: 0 auto;
+}
+/*header*/
+.header-top{
+    background-image: url("../images/cy-rgbj.png");
+    background-position:center bottom;
+    /*height: 322px;*/
+    background-repeat: no-repeat;
+}
+.header-topList span:nth-child(2n){
+    margin: 0 11%;
+}
+/*header end*/
+/*content*/
+/*注册1*/
+input{
+    outline:none;
+}
+/*.cy-rg1 .focus{
+    border:1px solid #9fc1f8;
+}
+*/.cy-rg1{
+    /*border: 1px solid red;*/
+}
+.cy-rg1ph{
+    border: 1px solid #c8c8c8;
+    /*height: 7.8%;*/
+    padding: 5px 0 5px 4.5%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.cy-rg1ph label{
+    font-size: 14px;
+    color: #3c3c3c;
+    font-weight: 600;
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 21%;
+}
+.cy-rg1ph input{
+    height: 16px;
+    line-height: 16px;
+    width: 71%;
+    border: 0;
+    padding-left: 3%;
+    background: none;
+    font-size: 14px;
+    margin: 7px 0;
+}
+.hxyzm{
+    padding: 7px 5%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    /* margin-bottom: 10px; */
+    width: 22%;
+    /* border: 1px solid green; */
+    display: block;
+    float: right;
+    margin-right: 1%;
+    text-align: center;
+}
+.buttonhover:hover{
+    background: #787878;
+}
+/*绑定银行卡号*/
+.bdyhk{
+    
+}
+/*弹出层*/
+
+.img-replace {
+    /* replace text with an image */
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    color: transparent;
+    white-space: nowrap;
+}
+
+/* --------------------------------
+
+xpopup
+
+-------------------------------- */
+.cd-popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(94, 110, 141, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+    transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+.cd-popup.is-visible {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+    -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+    transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.cd-popup-container {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: 4em auto;
+    background: #FFF;
+    border-radius: .25em .25em .4em .4em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-40px);
+    -moz-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    transform: translateY(-40px);
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.cd-popup-container p {
+    padding: 3em 1em;
+}
+.cd-popup-container .cd-buttons{
+    width: 75%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+.cd-popup-container .cd-buttons:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.cd-popup-container .cd-buttons li {
+    float: left;
+    width: 40%;
+    border: 1px solid #5396ca;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.cd-popup-container .cd-buttons li:first-child{
+    margin-right: 18%;
+}
+.cd-popup-container .cd-buttons a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    -webkit-transition: background-color 0.2s;
+    -moz-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+}
+.cd-popup-container .cd-buttons li:first-child a {
+    border-radius: 0 0 0 .25em;
+    color: #3c3c3c;
+}
+.no-touch .cd-popup-container .cd-buttons li:first-child a:hover {
+    background-color: #fc8982;
+}
+.cd-popup-container .cd-buttons li:last-child a {
+    background: #5396ca;
+    border-radius: 0 0 .25em 0;
+}
+.no-touch .cd-popup-container .cd-buttons li:last-child a:hover {
+    background-color: #c5ccd8;
+}
+.cd-popup-container .cd-popup-close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+}
+.cd-popup-container .cd-popup-close::before, .cd-popup-container .cd-popup-close::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    width: 14px;
+    height: 3px;
+    background-color: #8f9cb5;
+}
+.cd-popup-container .cd-popup-close::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 8px;
+}
+.cd-popup-container .cd-popup-close::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    right: 8px;
+}
+.is-visible .cd-popup-container {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+/*提现成功*/
+.rxcg-txz{
+
+    width: 19%;
+    float: left;
+    position: relative;
+}
+.rxcg-txz span{
+    position: absolute;
+    width: 48px;
+    top: 35px;
+    left: 0;
+
+}
+.rxcg-jdt2{
+
+    width: 64%;
+    float: left;
+}
+.rxcg-dzz{
+    width: 17%;
+    float: right;
+    padding-top: 4px;
+    position: relative;
+}
+.rxcg-dzz span{
+    position: absolute;
+    width: 113px;
+    top: 35px;
+    right: -24px;
+}
+/*进度条*/
+/* votebox */
+.votebox{margin-left:15px;text-align:left;position:relative;z-index:66;}
+/* barbox */
+.barbox{height:16px;line-height:16px;overflow:hidden;}
+.barbox dt a{color:#0048CC;}
+.barbox dd{float:left;}
+.barbox dd.last{color:#999;}
+.barbox dd.barline{width:100%;background:#cfcfcf;height:4px;overflow:hidden;display:inline;}
+.barbox dd.barline div.charts{height:4px;overflow:hidden;background:#5396ca;}
+/*账户设置*/
+.zhszlist ul li{
+    position: relative;
+    padding: 12px 0;
+    border-bottom: 1px solid #c8c8c8;
+}
+.zhsspan{
+    position: relative;
+    padding-left: 10%;
+}
+.zhszicon{
+    position: absolute;
+    width:32%;
+    height: 25px;
+    top: -2px;
+    left: 0;
+}
+.zhszlist ul li:last-child{
+    border-bottom: none;
+}
+.zhsright{
+    position: absolute;
+    right: 0;
+    top: 16px;
+    color: #969696;
+    background: url("../images/cy-zhse10.png") no-repeat right center;
+    height: 17px;
+    line-height: 20px;
+    padding-right: 6%;
+}
+@media (min-width: 500px) {
+    .zhsright {
+        position: absolute;
+        right: 0;
+        top: 27px;
+        color: #969696;
+        background: url("../images/cy-zhse10.png") no-repeat right center;
+        height: 17px;
+        line-height: 20px;
+        padding-right: 6%;
+    }
+}
+.zhsrightg{
+    background: url("../images/cy-ygb.png") no-repeat right center;
+    position: absolute;
+    right: 0;
+    top: 13px;
+    color: #969696;
+    display: block;
+    width: 30%;
+    height: 23px;
+}
+.zhsrightg2{
+    background: url("../images/cy-ykq.png") no-repeat right center;
+    position: absolute;
+    right: 0;
+    top: 13px;
+    color: #969696;
+    display: block;
+    width: 30%;
+    height: 23px;
+}
+.zhsrightg3{
+    background: url("../images/cy-ykq.png") no-repeat right center;
+    position: absolute;
+    right: 0;
+    top: 13px;
+    color: #969696;
+    display: block;
+    width: 30%;
+    height: 23px;
+}
+.zhsrightg4{
+    background: url("../images/cy-ygb.png") no-repeat right center;
+    position: absolute;
+    right: 0;
+    top: 13px;
+    color: #969696;
+    display: block;
+    width: 30%;
+    height: 23px;
+}
+/*content end*/

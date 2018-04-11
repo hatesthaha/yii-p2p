@@ -1,0 +1,253 @@
+@charset "utf-8";
+
+body {
+	background: #250c60 url("../images/events/bgbig.jpg")
+	no-repeat scroll center top;
+}
+
+/* CSS Document */
+#wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+#main{
+	width: 898px;
+	margin: 0 auto;
+}
+.text-L{
+	text-align: left;
+}
+.text-R{
+	text-align: right;
+}
+.red-C{
+	color: #e26944;
+}
+/*头部样式*/
+.top{
+	position: relative;
+}
+.form-p{
+	width: 222px;
+	position: absolute;
+	right: 162px;
+	top: 337px;
+}
+.form-p p{
+	height: 36px;
+	line-height: 36px;
+	margin: 0 0 9px;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+}
+.phone{
+	background: url("../images/events/f-usw.png") 10px center no-repeat #fff;
+	padding-left: 37px;
+}
+.phone input{
+	width: 185px;
+	height: 100%;
+	border: none;
+    -webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+	-ms-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+	outline: none;
+}
+.psw{
+	background: url("../images/events/f-psw1.png") 10px center no-repeat #fff;
+	padding-left: 37px;
+}
+.psw input{
+	width: 151px;
+	padding-right: 32px;
+	height: 100%;
+	border: none;
+	outline: none;
+	background: url("../images/events/f-psw2.png") 149px center no-repeat #fff;
+    -webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+	-ms-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+.code input{
+	width: 103px;
+	padding-left: 37px;
+	height: 100%;
+	border: none;
+	outline: none;
+	border-right: 1px solid #bbb;
+    -webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+	-o-border-radius: 5px 0 0 5px;
+	-ms-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+	background: url("../images/events/f-code.png") 10px center no-repeat #fff;
+}
+.code label{
+	cursor: pointer;
+	width: 81px;
+	text-align: center;
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	background: #fff;
+    -webkit-border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+	-ms-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+.check input{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: #fc8413;
+	color: #fff;
+	cursor: pointer;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+}
+/*活动内容部分样式*/
+.active-list li{
+	width: 33%;
+	float: left;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+.active-list li:first-child div{
+	text-align: center;
+	width: auto;
+	margin-left: -96px;
+}
+.active-list li:last-child div{
+	text-align: center;
+	margin-right: -96px;
+}
+/*其他人手气怎么样部分样式*/
+.page-tab{
+	width: 100%;
+	color: #979797;
+}
+.page-tab .trOdd{
+	background: #e3e3e3;
+}
+.page-tab td{
+	line-height: 30px;
+	height: 30px;
+}
+.page-tabL{
+	padding-left: 20px;
+}
+.page-tabR{
+	padding-right: 18px;
+}
+.page-tabL span{
+	padding-left: 50px;
+}
+/*活动介绍部分样式*/
+.info-W{
+	padding-left: 16px;
+	color: #333;
+}
+.info-W p{
+	line-height: 24px;
+}
+/*底部样式*/
+.bottom{
+	width: 446px;
+	margin: 52px auto 75px;
+}
+.bottom > p{
+	float: left;
+}
+.phone-dow{
+	width: 269px;
+	margin-right: 15px;
+}
+.phone-dow a{
+	display: block;
+}
+.phone-dow img{
+	display: block;
+	margin: 0 0 20px;
+}
+/*标题样式*/
+.tit{
+	width: 174px;
+	height: 36px;
+	line-height: 39px;
+	text-align: center;
+	color: #fff;
+	margin: 22px 0 13px;
+	font-size: 14px;
+}
+.tit-d1{
+	background: url("../images/events/h1.png") no-repeat;
+}
+.tit-d2{
+	background: url("../images/events/h2.png") no-repeat;
+}
+.tit-d3{
+	background: url("../images/events/h3.png") no-repeat;
+}
+/*红包金额*/
+.hb{
+	width: 300px;
+	position: absolute;
+	right: 130px;
+	/*top: 290px;*/
+}
+.hb-imgxj{
+	display: block;
+	margin: 0 auto;
+}
+.hb > div{
+	position: relative;
+	top: 1.5rem;
+}
+.hb-p{
+	position: absolute;
+	width: 42%;
+	height: 60%;
+	padding: 5%;
+	top: 0px;
+	left: 8px;
+	margin: 3% 20%;
+	color: #e26944;
+	font-size: 16px;
+}
+.hb-p span.hb-N{
+	font-size: 30px;
+}
+.hb-p span.hb-D{
+	font-size: 16px;
+}
+.use-hb{
+	position: relative;
+	width: 86%;
+	display: block;
+	background: #e26944;
+	color: #fff;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+	outline: none;
+	margin: 2rem 7% 0;
+	font-size: 14px;
+}
